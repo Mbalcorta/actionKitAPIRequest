@@ -1,7 +1,7 @@
-  const axios = require('axios');
-  const fs = require('fs');
-  const http = require('https');
-  const { username, password, urlEncodedPW, url } = require('./keys.js');
+const axios = require('axios')
+const fs = require('fs')
+const http = require('https')
+const { username, password, urlEncodedPW, url } = require('./keys.js')
   
 const patchRequest = (eventId) => {
   axios({
